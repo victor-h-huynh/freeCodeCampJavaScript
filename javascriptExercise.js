@@ -60,25 +60,40 @@ var ourDog = {
 
 // Intermediate Algorithm Scripting: Sum All Numbers in a Range
 
-function sumAll(arr) {
-  let low , high;
-  let result=0;
-  if(arr[0] > arr[1]) {
-    high = arr[0];
-    low = arr[1];
-  } else {
-    high = arr[1];
-    low = arr[0];
-  }
+// function sumAll(arr) {
+//   let low , high;
+//   let result=0;
+//   if(arr[0] > arr[1]) {
+//     high = arr[0];
+//     low = arr[1];
+//   } else {
+//     high = arr[1];
+//     low = arr[0];
+//   }
 
-  for(var i = low; i <= high; i++) {
-    result+= i
-    console.log(result);
-    console.log(i);
-  }
+//   for(var i = low; i <= high; i++) {
+//     result+= i
+//     console.log(result);
+//     console.log(i);
+//   }
 
-  return result;
+//   return result;
 
-}
+// }
 
-sumAll([1, 4]);
+// sumAll([1, 4]);
+
+// Intermediate Algorithm Scripting: Diff Two Arrays
+
+// function diffArray(arr1, arr2) {
+//   var newArr = [];
+//   // Same, same; but different.
+//   var union = arr1.concat(arr2)
+//   var intersection = arr1.filter( el => arr2.includes(el))
+
+//   newArr = union.filter( el => !intersection.includes(el))
+
+//   return newArr;
+// }
+
+// diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
