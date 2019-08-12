@@ -37,9 +37,48 @@ var ourDog = {
 
 // Only change code below this line.
 
-var myDog = {
-  "name": "Cat",
-  "legs": 10,
-  "tails": 20,
-  "friends": ["Doggomon", "Cow"],
-};
+// var myDog = {
+//   "name": "Cat",
+//   "legs": 10,
+//   "tails": 20,
+//   "friends": ["Doggomon", "Cow"],
+// };
+
+// // Basic JavaScript: Accessing Object Properties with Dot Notation
+
+// // Setup
+// var testObj = {
+//   "hat": "ballcap",
+//   "shirt": "jersey",
+//   "shoes": "cleats"
+// };
+
+// // Only change code below this line
+
+// var hatValue = testObj;      // Change this line
+// var shirtValue = testObj;    // Change this line
+
+// Intermediate Algorithm Scripting: Sum All Numbers in a Range
+
+function sumAll(arr) {
+  let low , high;
+  let result=0;
+  if(arr[0] > arr[1]) {
+    high = arr[0];
+    low = arr[1];
+  } else {
+    high = arr[1];
+    low = arr[0];
+  }
+
+  for(var i = low; i <= high; i++) {
+    result+= i
+    console.log(result);
+    console.log(i);
+  }
+
+  return result;
+
+}
+
+sumAll([1, 4]);
