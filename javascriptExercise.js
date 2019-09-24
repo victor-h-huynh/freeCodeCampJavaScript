@@ -304,3 +304,47 @@
 //////////////////////////////////////////////////////////////////////////////////////
 // SEPTEMBER 24TH 2019 Testing Objects for Properties //
 /////////////////////////////////////////////////////////////////////////////////////
+
+// Setup
+// var myObj = {
+//   gift: "pony",
+//   pet: "kitten",
+//   bed: "sleigh"
+// };
+
+// function checkObj(checkProp) {
+//   if(myObj.hasOwnProperty(checkProp)) {
+//     return myObj[checkProp]
+//   } else
+//   return "Not Found";
+// }
+// // Test your code by modifying these values
+// checkObj("gift");
+
+//////////////////////////////////////////////////////////////////////////////////////
+// SEPTEMBER 24TH 2019 Basic JavaScript: Manipulating Complex Objects //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// var myMusic = [
+//   {
+//     "artist": "Billy Joel",
+//     "title": "Piano Man",
+//     "release_year": 1973,
+//     "formats": [
+//       "CD",
+//       "8T",
+//       "LP"
+//     ],
+//     "gold": true
+//   },
+//   {
+//     "artist": "",
+//     "title": "",
+//     "release_year": 0,
+//     "formats": [
+//       "CD",
+//       "8T",
+//       "LP"
+//     ]
+//   }
+// ];
