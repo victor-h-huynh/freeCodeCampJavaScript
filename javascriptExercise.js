@@ -177,3 +177,19 @@
 
 // console.log(pal("string"))
 // console.log(pal("Able was I ere I saw Elba "))
+
+///////////////////////////////////////////////////////////////////////////
+// SEPTEMBER 24TH 2019 ACCESSING OBJECT PROPERTIES WITH VARIABLES //
+///////////////////////////////////////////////////////////////////////////
+
+// // Setup
+// var testObj = {
+//   12: "Namath",
+//   16: "Montana",
+//   19: "Unitas"
+// };
+
+// // Only change code below this line;
+
+// var playerNumber = 16;       // Change this Line
+// var player = testObj[playerNumber];   // Change this Line
