@@ -109,3 +109,71 @@
 
 // var hatValue = testObj.hat;      // Change this line
 // var shirtValue = testObj.shirt;    // Change this line
+
+///////////////////////////////////////////////////////////////////////////
+// SEPTEMBER 24TH 2019 ACCESSING OBJECT PROPERTIES WITH BRACKET NOTATION //
+///////////////////////////////////////////////////////////////////////////
+
+// Setup
+// var testObj = {
+//   "an entree": "hamburger",
+//   "my side": "veggies",
+//   "the drink": "water"
+// };
+
+// // Only change code below this line
+
+// var entreeValue = testObj["an entree"];   // Change this line
+// var drinkValue = testObj["the drink"];    // Change this line
+
+///////////////////////////////////////////////////////////////////////////
+// SEPTEMBER 24TH 2019 PALINDROME //
+///////////////////////////////////////////////////////////////////////////
+
+// if a number appends more than 1 time in an array
+// const arr1 = [1,2,3,4,5,6]
+// const arr2 = [1,2,3,4,5,1,3,4,5,67,5,1,3,5]
+
+// function check (arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = i+1; j < arr.length; j++) {
+//       if(arr[i] === arr[j]) {
+//         return true
+//       }
+
+//     }
+//   }
+
+// }
+
+// const check = arr => {
+//   const obj = {}
+//   for (number of arr) {
+//     if (obj[number]) {
+//       obj[number] +=1
+//     }
+//      else {
+//        obj[number] = 1
+//      }
+//   }
+//   console.log(obj)
+// }
+
+// console.log(check(arr1))
+// console.log(check(arr2))
+
+// const pal = string => {
+//   let counter = 0
+//   const originalString = string.toLowerCase().split(" ").join('')
+//   while (counter <= originalString.length/2) {
+//     counter+=1
+//     if (originalString[counter] !== originalString[originalString.length - 1 - counter]){
+//       return false
+//     }
+//   }
+
+//   return true
+// }
+
+// console.log(pal("string"))
+// console.log(pal("Able was I ere I saw Elba "))
