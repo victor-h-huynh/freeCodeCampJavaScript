@@ -458,3 +458,43 @@
 //   myArray.push(i);
 //   i++;
 // }
+
+//////////////////////////////////////////////////////////////////////////////////////
+// SEPTEMBER 24TH 2019 Basic JavaScript: Iterate with JavaScript For Loops //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Example
+// var ourArray = [];
+
+// for (var i = 0; i < 5; i++) {
+//   ourArray.push(i);
+// }
+
+// // Setup
+// var myArray = [];
+
+// // Only change code below this line.
+
+// for (let i = 1; i < 6; i++) {
+//     myArray.push(i)
+// }
+
+//////////////////////////////////////////////////////////////////////////////////////
+// SEPTEMBER 24TH 2019 Basic JavaScript: Iterate Odd Numbers With a For Loop //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Example
+var ourArray = [];
+
+for (var i = 0; i < 10; i += 2) {
+  ourArray.push(i);
+}
+
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+
+for (let i = 1; i < 10; i += 2) {
+  myArray.push(i);
+}
