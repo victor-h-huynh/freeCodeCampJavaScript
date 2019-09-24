@@ -484,17 +484,37 @@
 /////////////////////////////////////////////////////////////////////////////////////
 
 // Example
-var ourArray = [];
+// var ourArray = [];
 
-for (var i = 0; i < 10; i += 2) {
-  ourArray.push(i);
-}
+// for (var i = 0; i < 10; i += 2) {
+//   ourArray.push(i);
+// }
 
-// Setup
-var myArray = [];
+// // Setup
+// var myArray = [];
 
-// Only change code below this line.
+// // Only change code below this line.
 
-for (let i = 1; i < 10; i += 2) {
-  myArray.push(i);
-}
+// for (let i = 1; i < 10; i += 2) {
+//   myArray.push(i);
+// }
+
+//////////////////////////////////////////////////////////////////////////////////////
+// SEPTEMBER 24TH 2019 Basic JavaScript: Count Backwards With a For Loop //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Example
+// var ourArray = [];
+
+// for (var i = 10; i > 0; i -= 2) {
+//   ourArray.push(i);
+// }
+
+// // Setup
+// var myArray = [];
+
+// // Only change code below this line.
+
+// for (let i = 9; i > 0; i -= 2) {
+//   myArray.push(i);
+// }
