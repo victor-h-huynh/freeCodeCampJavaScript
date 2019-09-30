@@ -695,8 +695,18 @@
 // SEPTEMBER 30TH 2019 Basic JavaScript: Use the Conditional (Ternary) Operator //
 /////////////////////////////////////////////////////////////////////////////////////
 
-function checkEqual(a, b) {
-  return a === b ? true : false;
-}
+// function checkEqual(a, b) {
+//   return a === b ? true : false;
+// }
 
-checkEqual(1, 2);
+// checkEqual(1, 2);
+
+//////////////////////////////////////////////////////////////////////////////////////
+// SEPTEMBER 30TH 2019 Basic JavaScript: Use Multiple Conditional (Ternary) Operators //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// function checkSign(num) {
+//   return (num > 0) ? "positive" : (num < 0) ? "negative" : "zero"
+// }
+
+// checkSign(10);
