@@ -685,8 +685,18 @@
 // SEPTEMBER 30TH 2019 Basic JavaScript: Use the parseInt Function with a Radix //
 /////////////////////////////////////////////////////////////////////////////////////
 
-function convertToInteger(str) {
-  return parseInt(str, 2);
+// function convertToInteger(str) {
+//   return parseInt(str, 2);
+// }
+
+// convertToInteger("10011");
+
+//////////////////////////////////////////////////////////////////////////////////////
+// SEPTEMBER 30TH 2019 Basic JavaScript: Use the Conditional (Ternary) Operator //
+/////////////////////////////////////////////////////////////////////////////////////
+
+function checkEqual(a, b) {
+  return a === b ? true : false;
 }
 
-convertToInteger("10011");
+checkEqual(1, 2);
