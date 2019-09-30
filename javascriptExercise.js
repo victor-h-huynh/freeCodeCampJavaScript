@@ -674,9 +674,19 @@
 // SEPTEMBER 30TH 2019 Basic JavaScript: Use the parseInt Function //
 /////////////////////////////////////////////////////////////////////////////////////
 
+// function convertToInteger(str) {
+//   let i = parseInt(str);
+//   return i;
+// }
+
+// convertToInteger("56");
+
+//////////////////////////////////////////////////////////////////////////////////////
+// SEPTEMBER 30TH 2019 Basic JavaScript: Use the parseInt Function with a Radix //
+/////////////////////////////////////////////////////////////////////////////////////
+
 function convertToInteger(str) {
-  let i = parseInt(str);
-  return i;
+  return parseInt(str, 2);
 }
 
-convertToInteger("56");
+convertToInteger("10011");
