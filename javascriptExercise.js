@@ -932,3 +932,16 @@
 // const companyTotal = companies.reduce((total, company) => total + (company.end - company.start),0)
 
 // console.log(companyTotal)
+
+//////////////////////////////////////////////////////////////////////////////////////
+// OCTOBER 1ST 2019 ES6: Set Default Parameters for Your Functions //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// const increment = (function() {
+//   "use strict";
+//   return function increment(number, value = 1) {
+//     return number + value;
+//   };
+// })();
+// console.log(increment(5, 2)); // returns 7
+// console.log(increment(5)); // returns 6
