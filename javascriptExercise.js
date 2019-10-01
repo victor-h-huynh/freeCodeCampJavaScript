@@ -945,3 +945,15 @@
 // })();
 // console.log(increment(5, 2)); // returns 7
 // console.log(increment(5)); // returns 6
+
+//////////////////////////////////////////////////////////////////////////////////////
+// OCTOBER 1ST 2019 ES6: Use the Rest Operator with Function Parameters //
+/////////////////////////////////////////////////////////////////////////////////////
+
+const sum = (function() {
+  "use strict";
+  return function sum(...args) {
+    return args.reduce((a, b) => a + b, 0);
+  };
+})();
+console.log(sum(1, 2, 3)); // 6
