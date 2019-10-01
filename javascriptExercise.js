@@ -712,15 +712,19 @@
 // checkSign(10);
 
 //////////////////////////////////////////////////////////////////////////////////////
-// SEPTEMBER 30TH 2019 ES6: Explore Differences Between the var and let Keywordss //
+// SEPTEMBER 30TH 2019 ES6: Explore Differences Between the var and let Keywords //
 /////////////////////////////////////////////////////////////////////////////////////
 
-let catName;
-let quote;
-function catTalk() {
-  "use strict";
+// let catName;
+// let quote;
+// function catTalk() {
+//   "use strict";
 
-  catName = "Oliver";
-  quote = catName + " says Meow!";
-}
-catTalk();
+//   catName = "Oliver";
+//   quote = catName + " says Meow!";
+// }
+// catTalk();
+
+//////////////////////////////////////////////////////////////////////////////////////
+// OCTOBER 1ST 2019 ES6: Compare Scopes of the var and let Keywords //
+/////////////////////////////////////////////////////////////////////////////////////
