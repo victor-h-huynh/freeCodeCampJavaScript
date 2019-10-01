@@ -950,10 +950,22 @@
 // OCTOBER 1ST 2019 ES6: Use the Rest Operator with Function Parameters //
 /////////////////////////////////////////////////////////////////////////////////////
 
-const sum = (function() {
+// const sum = (function() {
+//   "use strict";
+//   return function sum(...args) {
+//     return args.reduce((a, b) => a + b, 0);
+//   };
+// })();
+// console.log(sum(1, 2, 3)); // 6
+
+//////////////////////////////////////////////////////////////////////////////////////
+// OCTOBER 1ST 2019 ES6: Use the Spread Operator to Evaluate Arrays In-Place //
+/////////////////////////////////////////////////////////////////////////////////////
+
+const arr1 = ["JAN", "FEB", "MAR", "APR", "MAY"];
+let arr2;
+(function() {
   "use strict";
-  return function sum(...args) {
-    return args.reduce((a, b) => a + b, 0);
-  };
+  arr2 = [...arr1]; // change this line
 })();
-console.log(sum(1, 2, 3)); // 6
+console.log(arr2);
