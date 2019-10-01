@@ -962,10 +962,29 @@
 // OCTOBER 1ST 2019 ES6: Use the Spread Operator to Evaluate Arrays In-Place //
 /////////////////////////////////////////////////////////////////////////////////////
 
-const arr1 = ["JAN", "FEB", "MAR", "APR", "MAY"];
-let arr2;
-(function() {
+// const arr1 = ["JAN", "FEB", "MAR", "APR", "MAY"];
+// let arr2;
+// (function() {
+//   "use strict";
+//   arr2 = [...arr1]; // change this line
+// })();
+// console.log(arr2);
+
+//////////////////////////////////////////////////////////////////////////////////////
+// OCTOBER 1ST 2019 ES6: Use Destructuring Assignment to Assign Variables from Objects //
+/////////////////////////////////////////////////////////////////////////////////////
+
+const AVG_TEMPERATURES = {
+  today: 77.5,
+  tomorrow: 79
+};
+
+function getTempOfTmrw(avgTemperatures) {
   "use strict";
-  arr2 = [...arr1]; // change this line
-})();
-console.log(arr2);
+  // change code below this line
+  const { tomorrow: tempOfTomorrow } = avgTemperatures; // change this line
+  // change code above this line
+  return tempOfTomorrow;
+}
+
+console.log(getTempOfTmrw(AVG_TEMPERATURES)); // should be 79
