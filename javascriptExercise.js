@@ -780,21 +780,25 @@
 // OCTOBER 1ST 2019 ES6: Prevent Object Mutation //
 /////////////////////////////////////////////////////////////////////////////////////
 
-function freezeObj() {
-  "use strict";
-  const MATH_CONSTANTS = {
-    PI: 3.14
-  };
-  // change code below this line
+// function freezeObj() {
+//   "use strict";
+//   const MATH_CONSTANTS = {
+//     PI: 3.14
+//   };
+//   // change code below this line
 
-  Object.freeze(MATH_CONSTANTS);
+//   Object.freeze(MATH_CONSTANTS);
 
-  // change code above this line
-  try {
-    MATH_CONSTANTS.PI = 99;
-  } catch (ex) {
-    console.log(ex);
-  }
-  return MATH_CONSTANTS.PI;
-}
-const PI = freezeObj();
+//   // change code above this line
+//   try {
+//     MATH_CONSTANTS.PI = 99;
+//   } catch (ex) {
+//     console.log(ex);
+//   }
+//   return MATH_CONSTANTS.PI;
+// }
+// const PI = freezeObj();
+
+//////////////////////////////////////////////////////////////////////////////////////
+// OCTOBER 1ST 2019 ES6: Use Arrow Functions to Write Concise Anonymous Functions //
+/////////////////////////////////////////////////////////////////////////////////////
