@@ -821,16 +821,114 @@
 //////////////////////////////////////////////////////////////////////////////////////
 // OCTOBER 1ST 2019 ES6: ES6: Write Higher Order Arrow Functions //
 /////////////////////////////////////////////////////////////////////////////////////
-const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
-const squareList = arr => {
-  "use strict";
-  // change code below this line
-  const squaredIntegers = arr
-    .filter(num => num > 0 && num % parseInt(num) === 0)
-    .map(num => Math.pow(num, 2));
-  // change code above this line
-  return squaredIntegers;
-};
-// test your code
-const squaredIntegers = squareList(realNumberArray);
-console.log(squaredIntegers);
+
+// const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
+// const squareList = arr => {
+//   "use strict";
+//   // change code below this line
+//   const squaredIntegers = arr
+//     .filter(num => num > 0 && num % parseInt(num) === 0)
+//     .map(num => Math.pow(num, 2));
+//   // change code above this line
+//   return squaredIntegers;
+// };
+// // test your code
+// const squaredIntegers = squareList(realNumberArray);
+// console.log(squaredIntegers);
+
+//////////////////////////////////////////////////////////////////////////////////////
+// OCTOBER 1ST 2019 ES6: ES6: FOR EACH, FILTER, MAP, SORT, REDUCE //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// const companies = [
+//   {name: "Company One", category: "Finance", start: 1981, end: 2003},
+//   {name: "Company Two", category: "Retail", start: 1992, end: 2008},
+//   {name: "Company Three", category: "Auto", start: 1999, end: 2007},
+//   {name: "Company Four", category: "Retail", start: 1989, end: 2010},
+//   {name: "Company Five", category: "Technology", start: 2009, end: 2014},
+//   {name: "Company Six", category: "Finance", start: 1987, end: 2010},
+//   {name: "Company Seven", category: "Auto", start: 1986, end: 1996},
+//   {name: "Company Eight", category: "Technology", start: 2011, end: 2016},
+//   {name: "Company Nine", category: "Retail", start: 1981, end: 1989},
+// ]
+
+// const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32]
+
+// forEach
+// companies.forEach(company => {
+//   console.log(company)
+// })
+
+// filter
+// const canDrink = ages.filter(age => age >= 21)
+// console.log(canDrink)
+
+// const endCompanies = companies.filter(company => company["end"] === 2010);
+// console.log(endCompanies);
+
+// const eighties = companies.filter(company => company.start >= 1981 && company.start <= 1989)
+// console.log(eighties)
+
+// const tenOrMore = companies.filter(company => (company.end - company.start >= 10))
+// console.log(tenOrMore)
+
+// map
+// const companyNames = companies.map(company => company.name)
+// console.log(companyNames)
+
+// const companyNames = companies.map(function(company) {
+//   return company.name
+// })
+
+// const companyNames = companies.map(company => `${company.name} has lasted ${company.end - company.start} years!`)
+
+// console.log(companyNames)
+
+// const ageMap = ages
+// .map(age => Math.sqrt(age))
+// .map(age => age * 2)
+// console.log(ageMap)
+
+// sort
+// const sortedCompanies = companies.sort(function(a,b) {
+//   if(a.start > b.start) {
+//     return 1;
+//   } else {
+//     return -1;
+//   }
+// })
+
+// console.log(sortedCompanies)
+
+// const sortedCompaniesEnd = companies.sort((a,b) => a.end > b.end ? 1 : -1)
+// console.log(sortedCompaniesEnd)
+
+// const sortAge = ages.sort((a,b) => a < b ? 1 : -1)
+// console.log(sortAge)
+
+// reduce
+
+// let ageSum = 0;
+// for (let i = 0; i < ages.length; i++) {
+//   ageSum += ages[i]
+// }
+
+// console.log(ageSum)
+
+// const ageTotal = ages.reduce(function(total, age){
+//   return total + age
+// },0)
+
+// const ageTotal = ages.reduce((total, age) => total + age, 0)
+
+// console.log(ageTotal)
+
+// const companyTotal = companies.reduce(function(total, company) {
+//   return total + (company.end - company.start)
+// },0)
+
+// console.log(companyTotal)
+
+// const companyTotal = companies.reduce((total, company) => total + (company.end - company.start),0)
+
+// console.log(companyTotal)
