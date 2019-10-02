@@ -993,19 +993,33 @@
 // OCTOBER 1ST 2019 ES6: Use Destructuring Assignment to Assign Variables from Nested Objects //
 /////////////////////////////////////////////////////////////////////////////////////
 
-const LOCAL_FORECAST = {
-  today: { min: 72, max: 83 },
-  tomorrow: { min: 73.3, max: 84.6 }
-};
+// const LOCAL_FORECAST = {
+//   today: { min: 72, max: 83 },
+//   tomorrow: { min: 73.3, max: 84.6 }
+// };
 
-function getMaxOfTmrw(forecast) {
-  "use strict";
-  // change code below this line
-  const {
-    tomorrow: { max: maxOfTomorrow }
-  } = forecast; // change this line
-  // change code above this line
-  return maxOfTomorrow;
-}
+// function getMaxOfTmrw(forecast) {
+//   "use strict";
+//   // change code below this line
+//   const {
+//     tomorrow: { max: maxOfTomorrow }
+//   } = forecast; // change this line
+//   // change code above this line
+//   return maxOfTomorrow;
+// }
 
-console.log(getMaxOfTmrw(LOCAL_FORECAST)); // should be 84.6
+// console.log(getMaxOfTmrw(LOCAL_FORECAST)); // should be 84.6
+
+//////////////////////////////////////////////////////////////////////////////////////
+// OCTOBER 1ST 2019 ES6: Use Destructuring Assignment to Assign Variables from Arrays //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// let a = 8, b = 6;
+// (() => {
+//   "use strict";
+//   // change code below this line
+//   [b,a] = [a,b]
+//   // change code above this line
+// })();
+// console.log(a); // should be 6
+// console.log(b); // should be 8
